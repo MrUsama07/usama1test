@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://zolavila.buzz//` + encodeURI(path as string)
+					`https:/zolavila.buzz/` + encodeURI(path as string)
 				}`,
 			},
 		};
